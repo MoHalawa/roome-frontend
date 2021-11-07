@@ -28,8 +28,10 @@ li.nav a:hover {
 }
 
 div.border {
+    color: white;
+    font-family: Calibri;
     background-color: #130871;
-    position: absolute;
+    position: center;
     border-width: 5px;
     border-color: #3e1c6f;
     width: 95%;
