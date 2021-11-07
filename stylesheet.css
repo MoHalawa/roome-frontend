@@ -39,3 +39,14 @@ div.border {
     padding: 5px;
 
 }
+div.content {
+    color: white;
+    font-family: Calibri;
+    background-color: white;
+    margin: auto;
+    border-width: 5px;
+    border-color: #3e1c6f;
+    width: 95%;
+    border-radius: 5px;
+    padding: 5px;
+}
