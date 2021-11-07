@@ -27,10 +27,11 @@ li.nav a:hover {
     background-color: #3e1c6f;
 }
 
-article.border {
+div.border {
     background-color: #130871;
+    position: absolute;
     border-width: 5px;
     border-color: #3e1c6f;
-    width: 90%;
+    width: 95%;
     border-radius: 5px;
 }
