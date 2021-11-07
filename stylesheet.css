@@ -29,6 +29,8 @@ li.nav a:hover {
 
 article.border {
     background-color: #130871;
-    border-width: 2px; 
-
+    border-width: 5px;
+    border-color: #3e1c6f;
+    width: 90%;
+    border-radiues: 5px;
 }
