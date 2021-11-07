@@ -10,6 +10,10 @@ li.nav {
     float: left;
 }
 
+li.active {
+    background-color: #130871;
+}
+
 li.nav a {
     display: block;
     color: white;
