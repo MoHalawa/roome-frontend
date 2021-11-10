@@ -49,3 +49,6 @@ div.content {
     border-radius: 5px;
     padding: 5px;
 }
+a:visited {
+    text-decoration: none !important;
+}
