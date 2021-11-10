@@ -33,6 +33,7 @@ div.border {
     color: white;
     font-family: Calibri;
     background-color: white;
+    margin: auto;
     margin-top: 10px;
     border-width: 5px;
     border-color: #3e1c6f;
