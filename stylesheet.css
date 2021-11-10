@@ -52,6 +52,9 @@ div.content {
 a:visited {
     text-decoration: none;
 }
+a:link {
+    text-decoration: underline;
+}
 img {
     display: block;
     margin-left: auto;
