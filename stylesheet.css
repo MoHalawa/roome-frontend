@@ -32,7 +32,7 @@ li.nav a:hover {
 div.border {
     color: white;
     font-family: Calibri;
-    background-color: #130871;
+    background-color: white;
     margin: auto;
     border-width: 5px;
     border-color: #3e1c6f;
@@ -42,9 +42,9 @@ div.border {
 
 }
 div.content {
-    color: #0d0648;
+    color: white;
     font-family: Calibri;
-    background-color: white;
+    background-color: #130871;
     margin: auto;
     border-width: 5px;
     border-color: #3e1c6f;
