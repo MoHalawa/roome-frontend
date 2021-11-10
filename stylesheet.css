@@ -4,6 +4,8 @@ ul.nav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    border-width: 5px;
+    border-color: #ffd800;
 }
 
 li.nav {
