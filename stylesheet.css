@@ -52,3 +52,9 @@ div.content {
 a:visited {
     text-decoration: none !important;
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
