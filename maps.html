@@ -5,7 +5,23 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <?php include "connect.php";?>
+    <script>
+        var connection = new ActiveXObject("ADODB.Connection") ;
+        var connectionstring="Data Source=sql5.freemysqlhosting.net:3306;User ID=sql5466511;Password=82pUav4jI8;";
+
+        connection.Open(connectionstring);
+        var rs = new ActiveXObject("ADODB.Recordset");
+        rs.Open("SELECT * FROM Schematics", connection);
+        rs.MoveFirst
+        while(!rs.eof)
+        {
+            document.write(rs.fields(1));
+            rs.movenext;
+        }
+
+        rs.close;
+        connection.close;
+    </script>
     <a href="html.html"><img src="room-e-logo.png" alt="Project Room-E"></a>
     <p style="font-family: Calibri; color: white; text-align: center;"><a href="Course_Outline.pdf">-Capstone- MECHTRON 4TB6A:SFWRENG 4G06A</a></p>
     <ul class="nav">
