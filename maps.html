@@ -18,7 +18,9 @@
             document.write(rs.fields(1));
             rs.movenext;
         }
-
+        var y = document.createElement("H3");
+        var t = document.createTextNode("This is a h3 element in a header element");
+        y.appendChild(t);
         rs.close;
         connection.close;
     </script>
