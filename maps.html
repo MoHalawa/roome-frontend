@@ -18,9 +18,15 @@
             document.write(rs.fields(1));
             rs.movenext;
         }
-        var y = document.createElement("H3");
-        var t = document.createTextNode("This is a h3 element in a header element");
-        y.appendChild(t);
+      var x = document.createElement("HEADER");
+      x.setAttribute("id", "myHeader");
+      document.body.appendChild(x);
+
+      var y = document.createElement("H3");
+      var t = document.createTextNode("This is a h3 element in a header element");
+      y.appendChild(t);
+
+      document.getElementById("myHeader").appendChild(y);
         rs.close;
         connection.close;
     </script>
@@ -32,7 +38,7 @@
         <li class="nav" style="font-family:Calibri"><a href="contact.html">Project Overview</a></li>
         <li class="nav" style="font-family:Calibri"><a href="about.html">About Us</a></li>
         <li class="nav" style="font-family:Calibri"><a href="development_overview.html">Development Timeline</a></li>
-        <li class="nav active" style="font-family:Calibri"><a href="maps.html">View Maps --<<<<</a></li>
+        <li class="nav active" style="font-family:Calibri"><a href="maps.html">View Maps</a></li>
     </ul>
     <div class="border"><div class="content"><h2 style="text-align:center">Your Maps</h2></div></div>
 
