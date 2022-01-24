@@ -4,9 +4,24 @@
     <title style="font-family:Calibri">Project Room-E</title>
     <link rel="stylesheet" href="stylesheet.css">
     <script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
+var connection = new ActiveXObject("ADODB.Connection") ;
+
+var connectionstring="Provider=SQLOLEDB;Data Source=sql5.freemysqlhosting.net:3306;User ID=sql5466511;Password=82pUav4jI8;";
+
+connection.Open(connectionstring);
+var rs = new ActiveXObject("ADODB.Recordset");
+
+rs.Open("SELECT * FROM Schematics", connection);
+rs.MoveFirst
+while(!rs.eof)
+{
+   document.write(rs.fields(1));
+   rs.movenext;
 }
+
+rs.close;
+connection.close;
+
 </script>
 </head>
 <body>
